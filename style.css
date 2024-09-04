@@ -1,2 +1,7 @@
-h1 {color:aqua;}
-article {font-size:40px}
+h1 {
+    color: white;
+    background-color:rgb(6, 64, 43);
+    font-size: 50px;
+    text-align: center;
+    font-family:sans-serif;
+}
