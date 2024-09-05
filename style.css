@@ -51,8 +51,15 @@ li a:hover {
     color: rgb(135, 206, 235);
     border-radius: 10px;
 }
+
+.active {
+    background-color:whitesmoke;
+    color:rgb(121, 185, 211);
+    border-radius:10px;
+}
 /* Navigation Bar End */
 
 .socials{
     float:right;
+    margin-bottom:auto;
 }
