@@ -73,14 +73,18 @@ li a:hover {
     margin-top:-300px;
     margin-left:auto;
     margin-right:10%;
-    margin-bottom:-30px;
+    margin-bottom:30px;
+    text-align:center;
 }
 
+.personality ol {
+    padding:0;
+    margin:0;
+}
 .personality li {
     display:block;
-    text-align:center;
+    list-style: none;
     font-family: sans-serif;
-    margin-left:-40px;
     color: whitesmoke;
 }
 
@@ -91,4 +95,34 @@ li a:hover {
     color:whitesmoke;
     font-family:sans-serif;
     border-bottom:3px solid;
+}
+
+/* Info */
+
+.info li{
+    display:block;
+    font-size:30px;
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+.info {
+    width:400px;
+    height:100px;
+    margin-top:-250px;
+    margin-bottom: 150px;
+    margin-right:50%;
+}
+
+/* Description */
+.description h2{
+    font-family:sans-serif;
+    color:whitesmoke;
+    margin-bottom:-15px;
+}
+.description p {
+    color:whitesmoke;
+}
+.description {
+    margin-top:-35px;
 }
