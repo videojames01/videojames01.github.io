@@ -24,11 +24,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(121, 185, 211);
     overflow: hidden;
     margin-top: -25px;
     margin-bottom: 25px;
     font-family:sans-serif;
+    font-size:20px;
 }
 
 li {
@@ -36,9 +37,6 @@ li {
 }
 
 .page-nav {float:left}
-.socials{
-    float:right;
-}
 
 li a{
     display: inline-block;
@@ -54,3 +52,7 @@ li a:hover {
     border-radius: 10px;
 }
 /* Navigation Bar End */
+
+.socials{
+    float:right;
+}
