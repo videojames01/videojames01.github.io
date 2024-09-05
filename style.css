@@ -19,7 +19,8 @@ body {
     background-color: rgb(121, 185, 211);
 }
 
-/* Navigation Bar Start */
+/* PROFILE */
+/* Navigation bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -56,8 +57,8 @@ li a:hover {
     color:rgb(121, 185, 211);
     border-radius:10px;
 }
-/* Navigation Bar End */
 
+/* Social media links */
 .socials{
     float:right;
 }
@@ -125,4 +126,29 @@ li a:hover {
 }
 .description {
     margin-top:-35px;
+}
+
+/* DASHBOARD */
+/* Aside menu */
+.aside {
+    width:350px;
+    height:auto;
+    text-align:center;
+    padding:10px;
+    border:5px solid;
+    border-color:whitesmoke;
+    border-radius:10px;
+    margin-left:auto;
+    margin-top:0px;
+}
+.aside h3 {
+    margin-top:auto;
+    font-size: 35px;
+    color:whitesmoke;
+    font-family:sans-serif;
+    border-bottom:3px solid;
+}
+.aside li {
+    display: block;
+    font-size:20px;
 }
