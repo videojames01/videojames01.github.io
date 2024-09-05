@@ -86,11 +86,14 @@ li a:hover {
     display:block;
     list-style: none;
     font-family: sans-serif;
+    font-size:20px;
     color: whitesmoke;
+    padding:10px;
 }
 
 .personality h3 {
     margin-top:auto;
+    margin-bottom:5px;
     font-size: 35px;
     text-align:center;
     color:whitesmoke;
@@ -104,6 +107,7 @@ li a:hover {
     display:block;
     font-size:30px;
     font-weight: bold;
+    font-family:sans-serif;
     color:whitesmoke;
 }
 
@@ -118,11 +122,13 @@ li a:hover {
 /* Description */
 .description h2{
     font-family:sans-serif;
+    font-size:25px;
     color:whitesmoke;
     margin-bottom:-15px;
 }
 .description p {
     color:whitesmoke;
+    font-family:sans-serif;
 }
 .description {
     margin-top:-35px;
