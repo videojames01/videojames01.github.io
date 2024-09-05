@@ -5,6 +5,7 @@ h1 {
     text-align: center;
     font-family: sans-serif;
     margin-top:auto;
+    border-radius: 10px;
 }
 
 .center {
@@ -48,5 +49,6 @@ li a{
 li a:hover {
     background-color: whitesmoke;
     color: rgb(135, 206, 235);
+    border-radius: 10px;
 }
 /* Navigation Bar End */
