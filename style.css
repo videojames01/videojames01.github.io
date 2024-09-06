@@ -21,7 +21,7 @@ body {
 
 /* PROFILE */
 /* Navigation bar */
-ul {
+.navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -133,6 +133,7 @@ li a:hover {
 .description p {
     color: whitesmoke;
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 .description {
@@ -151,19 +152,25 @@ li a:hover {
     border-radius: 10px;
     margin-left: auto;
     margin-top: 0px;
+    font-family: sans-serif;
 }
 
 .aside h3 {
     margin-top: auto;
+    margin-bottom:auto;
     font-size: 35px;
     color: whitesmoke;
-    font-family: sans-serif;
     border-bottom: 3px solid;
 }
 
+.aside ul {
+    font-size: 20px;
+    margin-right: 25px;
+}
 .aside li {
     display: block;
     font-size: 20px;
+    padding: 5px;
 }
 
 .aside li a:hover {
@@ -174,6 +181,30 @@ li a:hover {
 
 /* BLOG */
 /* Articles */
+.article h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
 .article li {
     display: block;
+    font-family:sans-serif;
+    font-size:16px;
+}
+
+.article li a {
+    margin-left: -8px;
+}
+
+.article li a:hover {
+    background-color: transparent;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.article p {
+    font-family:sans-serif;
+    font-size:16px;
+    color: whitesmoke;
 }
