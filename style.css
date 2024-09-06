@@ -169,12 +169,16 @@ body {
 
 .aside ul {
     font-size: 20px;
-    margin-right: 25px;
+    margin-right: 35px;
 }
 .aside li {
     display: block;
     font-size: 20px;
     padding: 5px;
+}
+
+.aside a {
+    color: whitesmoke;
 }
 
 .aside li a:hover {
