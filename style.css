@@ -31,29 +31,29 @@ body {
     font-size: 20px;
 }
 
-li {
+.navigation li {
     display: inline-block;
 }
 
-.page-nav {
+.navigation a {
     float: left
 }
 
-li a {
+.navigation li a {
     display: inline-block;
     color: whitesmoke;
+    border-radius: 10px;
     text-align: center;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+.navigation li a:hover {
     background-color: whitesmoke;
-    color: rgb(135, 206, 235);
-    border-radius: 10px;
+    color: rgb(121, 185, 211);
 }
 
-.active {
+.navigation .active {
     background-color: whitesmoke;
     color: rgb(121, 185, 211);
     border-radius: 10px;
@@ -61,8 +61,12 @@ li a:hover {
 
 /* PROFILE */
 /* Social media links */
-.socials {
+.socials ul {
+    list-style-type: none;
+}
+.socials li a {
     float: right;
+    padding: 5px;
 }
 
 /* Personality Box*/
