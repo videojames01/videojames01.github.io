@@ -171,3 +171,9 @@ li a:hover {
     font-weight: bold;
     color: whitesmoke;
 }
+
+/* BLOG */
+/* Articles */
+.article li {
+    display: block;
+}
