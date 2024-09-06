@@ -4,7 +4,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-family: sans-serif;
-    margin-top:auto;
+    margin-top: auto;
     border-radius: 10px;
 }
 
@@ -28,17 +28,19 @@ ul {
     background-color: rgb(121, 185, 211);
     overflow: hidden;
     margin-top: -25px;
-    font-family:sans-serif;
-    font-size:20px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 li {
-    display:inline-block;
+    display: inline-block;
 }
 
-.page-nav {float:left}
+.page-nav {
+    float: left
+}
 
-li a{
+li a {
     display: inline-block;
     color: whitesmoke;
     text-align: center;
@@ -53,108 +55,119 @@ li a:hover {
 }
 
 .active {
-    background-color:whitesmoke;
-    color:rgb(121, 185, 211);
-    border-radius:10px;
+    background-color: whitesmoke;
+    color: rgb(121, 185, 211);
+    border-radius: 10px;
 }
 
 /* Social media links */
-.socials{
-    float:right;
+.socials {
+    float: right;
 }
 
- /* Personality Box*/
- .personality {
-    width:200px;
-    height:300px;
-    border:5px solid;
-    border-color:whitesmoke;
-    border-radius:10px;
-    padding:10px;
-    margin-top:-300px;
-    margin-left:auto;
-    margin-right:10%;
-    margin-bottom:30px;
-    text-align:center;
+/* Personality Box*/
+.personality {
+    width: 200px;
+    height: 300px;
+    border: 5px solid;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -300px;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .personality ol {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
+
 .personality li {
-    display:block;
+    display: block;
     list-style: none;
     font-family: sans-serif;
-    font-size:20px;
+    font-size: 20px;
     color: whitesmoke;
-    padding:10px;
+    padding: 10px;
 }
 
 .personality h3 {
-    margin-top:auto;
-    margin-bottom:5px;
+    margin-top: auto;
+    margin-bottom: 5px;
     font-size: 35px;
-    text-align:center;
-    color:whitesmoke;
-    font-family:sans-serif;
-    border-bottom:3px solid;
+    text-align: center;
+    color: whitesmoke;
+    font-family: sans-serif;
+    border-bottom: 3px solid;
 }
 
 /* Info */
 
-.info li{
-    display:block;
-    font-size:30px;
+.info li {
+    display: block;
+    font-size: 30px;
     font-weight: bold;
-    font-family:sans-serif;
-    color:whitesmoke;
+    font-family: sans-serif;
+    color: whitesmoke;
 }
 
 .info {
-    width:400px;
-    height:100px;
-    margin-top:-250px;
+    width: 400px;
+    height: 100px;
+    margin-top: -250px;
     margin-bottom: 150px;
-    margin-right:50%;
+    margin-right: 50%;
 }
 
 /* Description */
-.description h2{
-    font-family:sans-serif;
-    font-size:25px;
-    color:whitesmoke;
-    margin-bottom:-15px;
+.description h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    margin-bottom: -15px;
 }
+
 .description p {
-    color:whitesmoke;
-    font-family:sans-serif;
+    color: whitesmoke;
+    font-family: sans-serif;
 }
+
 .description {
-    margin-top:-35px;
+    margin-top: -35px;
 }
 
 /* DASHBOARD */
 /* Aside menu */
 .aside {
-    width:350px;
-    height:auto;
-    text-align:center;
-    padding:10px;
-    border:5px solid;
-    border-color:whitesmoke;
-    border-radius:10px;
-    margin-left:auto;
-    margin-top:0px;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-top: 0px;
 }
+
 .aside h3 {
-    margin-top:auto;
+    margin-top: auto;
     font-size: 35px;
-    color:whitesmoke;
-    font-family:sans-serif;
-    border-bottom:3px solid;
+    color: whitesmoke;
+    font-family: sans-serif;
+    border-bottom: 3px solid;
 }
+
 .aside li {
     display: block;
-    font-size:20px;
+    font-size: 20px;
+}
+
+.aside li a:hover {
+    background-color: transparent;
+    font-weight: bold;
+    color: whitesmoke;
 }
