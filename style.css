@@ -20,7 +20,7 @@ body {
 }
 
 /* Navigation bar */
-.navigation ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,15 +31,15 @@ body {
     font-size: 20px;
 }
 
-.navigation li {
+.navbar li {
     display: inline-block;
 }
 
-.navigation a {
+.navbar a {
     float: left
 }
 
-.navigation li a {
+.navbar li a {
     display: inline-block;
     color: whitesmoke;
     border-radius: 10px;
@@ -48,12 +48,12 @@ body {
     text-decoration: none;
 }
 
-.navigation li a:hover {
+.navbar li a:hover {
     background-color: whitesmoke;
     color: rgb(121, 185, 211);
 }
 
-.navigation #active {
+.navbar #active {
     background-color: whitesmoke;
     color: rgb(121, 185, 211);
     border-radius: 10px;
@@ -64,6 +64,7 @@ body {
 .socials ul {
     list-style-type: none;
 }
+
 .socials li a {
     float: right;
     padding: 5px;
