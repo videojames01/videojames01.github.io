@@ -53,7 +53,7 @@ body {
     color: rgb(121, 185, 211);
 }
 
-.navigation .active {
+.navigation #active {
     background-color: whitesmoke;
     color: rgb(121, 185, 211);
     border-radius: 10px;
