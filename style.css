@@ -19,7 +19,6 @@ body {
     background-color: rgb(121, 185, 211);
 }
 
-/* PROFILE */
 /* Navigation bar */
 .navigation ul {
     list-style-type: none;
@@ -60,6 +59,7 @@ li a:hover {
     border-radius: 10px;
 }
 
+/* PROFILE */
 /* Social media links */
 .socials {
     float: right;
