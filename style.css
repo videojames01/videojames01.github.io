@@ -67,6 +67,14 @@ body {
 .socials li a {
     float: right;
     padding: 5px;
+    margin: 5px;
+}
+
+.socials li a:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: auto;
+    padding-bottom: 2px;
 }
 
 /* Personality Box*/
