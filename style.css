@@ -16,6 +16,7 @@ h1 {
 
 body {
     background-color: rgb(121, 185, 211);
+    color: whitesmoke;
     overflow: hidden;
     font-family:sans-serif;
 }
@@ -105,7 +106,6 @@ body.home {
     display: block;
     list-style: none;
     font-size: 20px;
-    color: whitesmoke;
     padding: 10px;
 }
 
@@ -114,7 +114,6 @@ body.home {
     margin-bottom: 5px;
     font-size: 35px;
     text-align: center;
-    color: whitesmoke;
     border-bottom: 3px solid;
 }
 
@@ -123,8 +122,6 @@ body.home {
 .info li {
     display: block;
     font-size: 30px;
-    font-weight: bold;
-    color: whitesmoke;
 }
 
 .info {
@@ -138,12 +135,10 @@ body.home {
 /* Description */
 .description h2 {
     font-size: 25px;
-    color: whitesmoke;
     margin-bottom: -15px;
 }
 
 .description p {
-    color: whitesmoke;
     font-size: 16px;
 }
 
@@ -169,7 +164,6 @@ body.home {
     margin-top: auto;
     margin-bottom:auto;
     font-size: 35px;
-    color: whitesmoke;
     border-bottom: 3px solid;
 }
 
@@ -190,14 +184,12 @@ body.home {
 .aside li a:hover {
     background-color: transparent;
     font-weight: bold;
-    color: whitesmoke;
 }
 
 /* BLOG */
 /* Articles */
 .article h2 {
     font-size: 25px;
-    color: whitesmoke;
 }
 
 .article li {
@@ -207,18 +199,15 @@ body.home {
 
 .article li a:hover {
     background-color: transparent;
-    color: whitesmoke;
     text-decoration: underline;
 }
 
 .article p {
     font-size:16px;
-    color: whitesmoke;
 }
 
 /* FAQ */
 .question {
-    color: whitesmoke;
     text-align: center;
 }
 
