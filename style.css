@@ -25,10 +25,11 @@ body {
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    padding-bottom: 0;
+    border-radius: 10px;
     background-color: rgb(121, 185, 211);
     overflow: hidden;
-    margin-top: auto;
     font-size: 20px;
 }
 
@@ -147,7 +148,6 @@ body.home {
 
 .description {
     margin-top: -35px;
-    margin-bottom
 }
 
 /* DASHBOARD */
