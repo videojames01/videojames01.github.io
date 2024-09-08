@@ -70,7 +70,7 @@ body.home {
 /* Social media links */
 .socials ul {
     list-style-type: none;
-    margin-bottom: 60px;
+    margin-bottom: -40px;
 }
 
 .socials li a {
@@ -130,8 +130,8 @@ body.home {
 .info {
     width: 400px;
     height: 100px;
-    margin-top: -250px;
-    margin-bottom: 150px;
+    margin-top: -300px;
+    margin-bottom: 200px;
     margin-right: 50%;
 }
 
@@ -142,11 +142,12 @@ body.home {
 }
 
 .description p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .description {
     margin-top: -35px;
+    margin-bottom
 }
 
 /* DASHBOARD */
