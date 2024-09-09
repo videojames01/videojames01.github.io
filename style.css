@@ -161,7 +161,7 @@ body.home {
 /* DASHBOARD */
 /* Aside menu */
 .aside {
-    width: 350px;
+    width: 370px;
     height: auto;
     text-align: center;
     padding: 10px;
@@ -169,7 +169,8 @@ body.home {
     border-color: whitesmoke;
     border-radius: 10px;
     margin-left: auto;
-    margin-top: 0px;
+    margin-right: 65px;
+    margin-top: -630px;
 }
 
 .aside h3 {
