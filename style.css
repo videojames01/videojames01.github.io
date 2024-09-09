@@ -18,7 +18,7 @@ body {
     background-color: rgb(121, 185, 211);
     color: whitesmoke;
     overflow: hidden;
-    font-family:sans-serif;
+    font-family:sans-serif, arial;
 }
 
 /* Navigation bar */
@@ -65,6 +65,14 @@ body {
 body.home {
     background-image: linear-gradient(to left, rgb(121, 185, 211)50%, rgba(0,0,0,0)),
     url("https://github.com/videojames01/videojames01.github.io/blob/main/images/coding.png?raw=true");
+    background-size: 100%;
+}
+
+#hz-logo {
+    width: 5%;
+    height: 5%;
+    margin-left: 1250px;
+    margin-top: -50px;
 }
 
 /* PROFILE */
@@ -190,6 +198,24 @@ body.home {
     font-weight: bold;
 }
 
+/* Table */
+table {
+    border: 5px solid;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td, th {
+    border: 2px solid;
+    padding: 5px;
+    color:rgb(121, 185, 211);
+    background-color: whitesmoke;
+}
+
+th {
+    background-color: rgb(121, 185, 211);
+    color: whitesmoke;
+}
 /* BLOG */
 /* Articles */
 .article h2 {
