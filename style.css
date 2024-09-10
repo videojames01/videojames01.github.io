@@ -12,6 +12,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 body {
@@ -81,7 +82,7 @@ body.home {
 /* Social media links */
 .socials ul {
     list-style-type: none;
-    margin-bottom: -40px;
+    margin-bottom: -45px;
 }
 
 .socials li a {
@@ -107,7 +108,7 @@ body.home {
     margin-top: -300px;
     margin-left: auto;
     margin-right: 10%;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     text-align: center;
 }
 
@@ -141,15 +142,15 @@ body.home {
 .info {
     width: 400px;
     height: 100px;
-    margin-top: -300px;
-    margin-bottom: 200px;
+    margin-top: -305px;
+    margin-bottom: 205px;
     margin-right: 50%;
 }
 
 /* Description */
 .description h2 {
     font-size: 25px;
-    margin-bottom: -15px;
+    margin-bottom: -10px;
 }
 
 .description p {
@@ -157,7 +158,7 @@ body.home {
 }
 
 .description {
-    margin-top: -35px;
+    margin-top: -65px;
 }
 
 /* DASHBOARD */
@@ -205,7 +206,7 @@ body.home {
 table {
     border: 5px solid;
     border-collapse: collapse;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: left;
 }
 
@@ -229,6 +230,11 @@ th {
 .article li {
     display: block;
     font-size:16px;
+}
+
+.article li a {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .article li a:hover {
