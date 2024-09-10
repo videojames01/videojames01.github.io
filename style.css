@@ -70,10 +70,11 @@ body.home {
 }
 
 #hz-logo {
-    width: 5%;
-    height: 5%;
-    margin-left: 1250px;
-    margin-top: -50px;
+    width: 2%;
+    height: 2%;
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
 }
 
 /* PROFILE */
@@ -169,8 +170,8 @@ body.home {
     border: 5px solid;
     border-color: whitesmoke;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: 65px;
+    float: right;
+    margin-right: 80px;
     margin-top: -630px;
 }
 
@@ -204,6 +205,7 @@ body.home {
 table {
     border: 5px solid;
     border-collapse: collapse;
+    margin-top: 30px;
     text-align: left;
 }
 
