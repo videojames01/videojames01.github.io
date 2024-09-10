@@ -31,6 +31,7 @@ body {
     background-color: rgb(121, 185, 211);
     overflow: hidden;
     font-size: 20px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.4)
 }
 
 .navbar li {
@@ -238,10 +239,6 @@ th {
 }
 
 /* FAQ */
-.question {
-    text-align: center;
-}
-
-.question li {
-    list-style: none;
+summary {
+    font-weight: bold;
 }
