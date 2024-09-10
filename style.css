@@ -235,7 +235,7 @@ th {
 }
 
 .article li a {
-    color: whitesmoke;
+    color: rgb(121, 185, 211);
     text-decoration: none;
 }
 
@@ -249,6 +249,22 @@ th {
 }
 
 /* FAQ */
-summary {
+.question summary {
     font-weight: bold;
+    font-size: 25px;
+}
+
+.question details {
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.question a {
+    color: rgb(121, 185, 211);
+    text-decoration: none;
+}
+
+.question a:hover {
+    text-decoration: underline;
 }
