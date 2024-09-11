@@ -174,7 +174,7 @@ body.home {
     background-color: rgb(121, 185, 211);
     border-radius: 10px;
     float: right;
-    margin-right: -70px;
+    margin-right: -375px;
     margin-top: -518px;
 }
 
@@ -234,10 +234,16 @@ td, th {
 /* Progress bar */
 .progress-bar h2 {
     float: right;
+    margin-top: -150px;
+    margin-right: 175px;
 }
 
 .progress-bar img {
-    size: 1%;
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-top: -300px;
+    margin-right: 50px;
 }
 /* BLOG */
 /* Articles */
