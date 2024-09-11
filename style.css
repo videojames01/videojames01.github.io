@@ -219,8 +219,16 @@ td, th {
     background-color: rgb(121, 185, 211);
 }
 
-.grade {
+.ungraded {
     background-color: gray;
+}
+
+.pass {
+    background-color: green;
+}
+
+.fail {
+    background-color: red;
 }
 
 /* BLOG */
