@@ -246,25 +246,27 @@ td, th {
 }
 
 /* BLOG */
-/* Articles */
-.article-head h2 {
+/* Post headers */
+.post-head h2 {
     font-size: 25px;
 }
-.article-head li {
+.post-head li {
     display: block;
     font-size:16px;
 }
-.article-head li a {
+.post-head li a {
     color: rgb(121, 185, 211);
     text-decoration: none;
 }
-.article-head li a:hover {
+.post-head li a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
-.article-head p {
+.post-head p {
     font-size:16px;
 }
+
+/* Posts */
 
 /* FAQ */
 .question summary {
