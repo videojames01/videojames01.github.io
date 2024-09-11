@@ -34,15 +34,12 @@ body {
     font-size: 20px;
     box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.4)
 }
-
 .navbar li {
     display: inline-block;
 }
-
 .navbar a {
     float: left
 }
-
 .navbar li a {
     display: inline-block;
     color: whitesmoke;
@@ -51,25 +48,15 @@ body {
     padding: 8px 16px;
     text-decoration: none;
 }
-
 .navbar li a:hover {
     background-color: whitesmoke;
     color: rgb(121, 185, 211);
 }
-
 .navbar #active {
     background-color: whitesmoke;
     color: rgb(121, 185, 211);
     border-radius: 10px;
 }
-
-/* HOME PAGE */
-body.home {
-    background-image: linear-gradient(to left, rgb(30, 65, 85)50%, rgba(0,0,0,0)),
-    url("/images/coding.jpg");
-    background-size: 100%;
-}
-
 #hz-logo {
     width: 2%;
     height: 2%;
@@ -78,19 +65,45 @@ body.home {
     margin-right: 20px;
 }
 
+/* HOME PAGE */
+body.home {
+    background-image: linear-gradient(to left, rgb(30, 65, 85)50%, rgba(0,0,0,0)),
+    url("/images/coding.jpg");
+    background-size: 100%;
+}
+#home-info {
+    width: 500px;
+    margin-left: auto;
+    margin-right: 75px;
+}
+#home-info h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+#home-info p {
+    font-size: 19px;
+    margin-top: 0;
+}
+
+#home-list {
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: -500px;
+    margin-left: 75px;
+    width: 300px;
+}
 /* PROFILE */
 /* Social media links */
 .socials ul {
     list-style-type: none;
     margin-bottom: -45px;
 }
-
 .socials li a {
     float: right;
     padding: 5px;
     margin: 5px;
 }
-
 .socials li a:hover {
     background-color: whitesmoke;
     border-radius: 10px;
@@ -112,19 +125,16 @@ body.home {
     margin-bottom: 35px;
     text-align: center;
 }
-
 .personality ol {
     padding: 0;
     margin: 0;
 }
-
 .personality li {
     display: block;
     list-style: none;
     font-size: 20px;
     padding: 10px;
 }
-
 .personality h3 {
     margin-top: auto;
     margin-bottom: 5px;
@@ -134,12 +144,10 @@ body.home {
 }
 
 /* Info */
-
 .info li {
     display: block;
     font-size: 30px;
 }
-
 .info {
     width: 450px;
     height: 100px;
@@ -153,11 +161,9 @@ body.home {
     font-size: 25px;
     margin-bottom: -10px;
 }
-
 .description p {
     font-size: 20px;
 }
-
 .description {
     margin-top: -65px;
 }
@@ -177,14 +183,12 @@ body.home {
     margin-right: 75px;
     margin-top: -518px;
 }
-
 .aside h3 {
     margin-top: auto;
     margin-bottom:auto;
     font-size: 35px;
     border-bottom: 3px solid;
 }
-
 .aside ul {
     font-size: 20px;
     margin-right: 35px;
@@ -194,11 +198,9 @@ body.home {
     font-size: 20px;
     padding: 5px;
 }
-
 .aside a {
     color: whitesmoke;
 }
-
 .aside li a:hover {
     background-color: transparent;
     font-weight: bold;
@@ -211,7 +213,6 @@ table {
     margin-top: 20px;
     text-align: left;
 }
-
 td, th {
     border: 2px solid;
     padding: 5px;
@@ -219,6 +220,7 @@ td, th {
     background-color: rgb(121, 185, 211);
 }
 
+/* Grade colours */
 .ungraded {
     background-color: gray;
 }
@@ -237,33 +239,29 @@ td, th {
     margin-top: -150px;
     margin-right: 200px;
 }
-
 .progress table {
    float: right;
    margin-right: 105px;
    margin-top: -120px;
 }
+
 /* BLOG */
 /* Articles */
 .article h2 {
     font-size: 25px;
 }
-
 .article li {
     display: block;
     font-size:16px;
 }
-
 .article li a {
     color: rgb(121, 185, 211);
     text-decoration: none;
 }
-
 .article li a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
-
 .article p {
     font-size:16px;
 }
@@ -277,7 +275,6 @@ td, th {
     margin-right: auto;
     cursor: pointer;
 }
-
 .question details {
     width: 1000px;
     margin-left: auto;
@@ -286,12 +283,10 @@ td, th {
     font-size: 20px;
     text-align: center;
 }
-
 .question a {
     color: rgb(121, 185, 211);
     text-decoration: none;
 }
-
 .question a:hover {
     text-decoration: underline;
 }
