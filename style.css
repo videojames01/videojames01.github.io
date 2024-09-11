@@ -219,6 +219,10 @@ td, th {
     background-color: rgb(121, 185, 211);
 }
 
+.grade {
+    background-color: gray;
+}
+
 /* BLOG */
 /* Articles */
 .article h2 {
