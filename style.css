@@ -18,7 +18,7 @@ h1 {
 body {
     background-color: rgb(30, 65, 85);
     color: whitesmoke;
-    overflow: hidden;
+    
     font-family:sans-serif, arial;
 }
 
@@ -174,8 +174,8 @@ body.home {
     background-color: rgb(121, 185, 211);
     border-radius: 10px;
     float: right;
-    margin-right: 80px;
-    margin-top: -630px;
+    margin-right: -70px;
+    margin-top: -518px;
 }
 
 .aside h3 {
@@ -231,6 +231,14 @@ td, th {
     background-color: red;
 }
 
+/* Progress bar */
+.progress-bar h2 {
+    float: right;
+}
+
+.progress-bar img {
+    size: 1%;
+}
 /* BLOG */
 /* Articles */
 .article h2 {
