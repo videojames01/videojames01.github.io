@@ -247,22 +247,22 @@ td, th {
 
 /* BLOG */
 /* Articles */
-.article h2 {
+.article-head h2 {
     font-size: 25px;
 }
-.article li {
+.article-head li {
     display: block;
     font-size:16px;
 }
-.article li a {
+.article-head li a {
     color: rgb(121, 185, 211);
     text-decoration: none;
 }
-.article li a:hover {
+.article-head li a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
-.article p {
+.article-head p {
     font-size:16px;
 }
 
