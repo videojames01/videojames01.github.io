@@ -264,7 +264,7 @@ td, th {
 /* BLOG */
 /* Post headers */
 .post-head h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 .post-head li {
     display: block;
@@ -285,6 +285,12 @@ td, th {
 /* Posts */
 .post p {
     font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.post h2 {
+    font-size: 30px;
+    margin-left: 25px;
 }
 /* FAQ */
 .question summary {
