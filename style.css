@@ -283,7 +283,9 @@ td, th {
 }
 
 /* Posts */
-
+.post p {
+    font-size: 25px;
+}
 /* FAQ */
 .question summary {
     font-weight: bold;
