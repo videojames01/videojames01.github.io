@@ -265,10 +265,11 @@ td, th {
 /* Post headers */
 .post-head h2 {
     font-size: 30px;
+    margin-bottom: -10px;
 }
 .post-head li {
-    display: block;
-    font-size:16px;
+    display: inline;
+    font-size: 17px;
 }
 .post-head li a {
     color: rgb(121, 185, 211);
@@ -279,7 +280,8 @@ td, th {
     text-decoration: underline;
 }
 .post-head p {
-    font-size:16px;
+    font-size:17px;
+    margin-bottom: -3px;
 }
 
 /* Posts */
