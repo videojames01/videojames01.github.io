@@ -16,7 +16,7 @@
 body {
     background-color: rgb(30, 65, 85);
     color: whitesmoke;
-    
+    overflow: hidden;
     font-family:sans-serif, arial;
 }
 
