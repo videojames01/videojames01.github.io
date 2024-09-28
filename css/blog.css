@@ -1,0 +1,33 @@
+/* Post headers */
+.post-head h2 {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.post-head li {
+    display: inline;
+    font-size: 17px;
+}
+.post-head li a {
+    color: rgb(121, 185, 211);
+    text-decoration: none;
+}
+.post-head li a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+.post-head p {
+    font-size:17px;
+    margin-bottom: -3px;
+}
+
+/* Posts */
+.post p {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.post h2 {
+    font-size: 30px;
+    margin-left: 25px;
+}
+

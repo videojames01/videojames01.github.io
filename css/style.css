@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(30, 65, 85);
+    color: whitesmoke;
+    overflow: hidden;
+    font-family:sans-serif, arial;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* Navigation bar */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    background-color: rgb(121, 185, 211);
+    overflow: hidden;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.4)
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    float: left
+}
+
+.navbar li a {
+    display: inline-block;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: whitesmoke;
+    color: rgb(121, 185, 211);
+}
+
+.navbar #active {
+    background-color: whitesmoke;
+    color: rgb(121, 185, 211);
+    border-radius: 10px;
+}
+
+#hz-logo {
+    width: 2%;
+    height: 2%;
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
