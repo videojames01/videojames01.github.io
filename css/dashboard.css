@@ -66,11 +66,23 @@ td, th {
 /* EC Progress */
 .progress h2 {
     float: right;
-    margin-top: -150px;
     margin-right: 200px;
 }
-.progress table {
-   float: right;
-   margin-right: 105px;
-   margin-top: -120px;
+.progress {
+    float: right;
+    margin-right: 105px;
+    margin-top: -120px;
+}
+
+.progress div {
+    background-color: whitesmoke;
+    margin-top: 50px;
+    height: 50px;
+    width: 340px;
+}
+
+#progress-bar {
+    background-color:rgb(121, 185, 211);
+    height: 50px;
+    width: 50%;
 }
