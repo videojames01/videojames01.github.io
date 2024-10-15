@@ -30,3 +30,13 @@
     font-size: 30px;
     margin-left: 25px;
 }
+
+img {
+    height: 75px;
+}
+
+ .post-summary div {
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
