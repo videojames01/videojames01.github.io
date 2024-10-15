@@ -3,15 +3,15 @@
     font-size: 30px;
     margin-bottom: -10px;
 }
-.post-head li {
+.post-head div {
     display: inline;
     font-size: 17px;
 }
-.post-head li a {
+.post-head div a {
     color: rgb(121, 185, 211);
     text-decoration: none;
 }
-.post-head li a:hover {
+.post-head div a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
@@ -30,4 +30,3 @@
     font-size: 30px;
     margin-left: 25px;
 }
-
