@@ -25,9 +25,9 @@ for (let i = 0; i < gradesArray.length; i++) {
         } else {
             gradesArray[i].classList.add("pass");
         }
-        //
+        // Width of progress bar loaded
         width = (totalECs / 60) * 100;
-        document.getElementById("progress-bar").setAttribute("style", "width: " + width + "%");
+        document.getElementById("progress-bar").setAttribute("style", "width: " + width + "%;");
     })
     if (gradesArray[i].innerHTML == 0) {
         gradesArray[i].classList.add("ungraded");

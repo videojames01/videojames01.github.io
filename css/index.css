@@ -1,5 +1,5 @@
 body.home {
-    background-image: linear-gradient(to left, rgb(30, 65, 85)50%, rgba(0,0,0,0)),
+    background-image: linear-gradient(to left, rgb(20, 45, 60)50%, rgba(0,0,0,0)),
     url("/images/coding.jpg");
     background-size: 100%;
 }
