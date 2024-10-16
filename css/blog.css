@@ -31,12 +31,16 @@
     margin-left: 25px;
 }
 
-img {
-    height: 75px;
-}
-
  .post-summary div {
     display: inline-block;
     margin-bottom: 25px;
     margin-top: 50px;
+}
+
+/* Images */
+img {
+    border-radius: 10px;
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 5px;
 }
