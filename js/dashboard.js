@@ -28,7 +28,10 @@ for (let i = 0; i < gradesArray.length; i++) {
         // Width of progress bar loaded
         width = (totalECs / 60) * 100;
         document.getElementById("progress-bar").setAttribute("style", "width: " + width + "%;");
+        // Update total ECs underneath progress bar
+        document.getElementById("total-ec").innerHTML = "Total ECs: " + totalECs;
     })
+    // Do once outside of the click event, so that table cells start with class ungraded
     if (gradesArray[i].innerHTML == 0) {
         gradesArray[i].classList.add("ungraded");
     } else if (gradesArray[i] < 5.5) {

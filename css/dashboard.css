@@ -74,6 +74,10 @@ th {
     float: right;
     margin-right: 200px;
 }
+.progress h3 {
+    position: fixed;
+    margin-top: 2px;
+}
 .progress {
     float: right;
     margin-right: 105px;
