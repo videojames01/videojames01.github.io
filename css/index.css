@@ -4,30 +4,34 @@ body.home {
     background-size: 100%;
 }
 
-
-
-/* secret link */
+/* Secret link */
 .secret {
     color: rgba(0,0,0,0);
 }
+
 .secret:hover {
     color: whitesmoke;
 }
+
+/* Motivation */
 #home-info {
     width: 500px;
     margin-left: auto;
     margin-right: 75px;
     margin-top: -125px;
 }
+
 #home-info h2 {
     font-size: 25px;
     margin-bottom: 0;
 }
+
 #home-info p {
     font-size: 19px;
     margin-top: 0;
 }
 
+/* Contact details */
 #home-list {
     padding: 5px;
     text-align: center;
@@ -37,10 +41,12 @@ body.home {
     margin-left: 15%;
     width: 300px;
 }
+
 #home-list h2 {
     font-weight: bold;
     font-size: 25px;
 }
+
 #home-list ul {
     list-style: none;
     margin-right: 35px;

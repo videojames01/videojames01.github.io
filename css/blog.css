@@ -3,18 +3,22 @@
     font-size: 30px;
     margin-bottom: -10px;
 }
+
 .post-head div {
     display: inline;
     font-size: 17px;
 }
+
 .post-head div a {
     color: rgb(121, 185, 211);
     text-decoration: none;
 }
+
 .post-head div a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
+
 .post-head p {
     font-size:17px;
     margin-bottom: -3px;
@@ -26,6 +30,7 @@
     margin-left: 25px;
     margin-right: 25px;
 }
+
 .post h2 {
     font-size: 30px;
     margin-left: 25px;
